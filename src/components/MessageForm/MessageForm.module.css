@@ -1,0 +1,20 @@
+.form{
+    margin: 0 auto;
+    width: 50%;
+}
+.form .color{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.form .color input{
+    background-color: none !important;
+}
+.blue{
+    display: block;
+    border-radius: 50%;
+    background-color:#F06291 ;
+    border: none;
+    padding: 10px;
+   
+}
