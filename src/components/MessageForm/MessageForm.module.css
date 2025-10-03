@@ -1,20 +1,64 @@
 .form{
     margin: 0 auto;
     width: 50%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px;
 }
 .form .color{
     display: flex;
-    justify-content: space-between;
     gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.form .color input{
-    background-color: none !important;
+.form button{
+    background-color:#44C867 ;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.form p{
+    cursor: pointer;
+}
+.red{
+    display: block;
+    border-radius: 50%;
+    background-color:#F06291;
+    padding: 10px 20px;
+   
+}
+.purple{
+    display: block;
+    border-radius: 50%;
+    background-color:#BA68C8;
+    padding: 10px 20px;
+}
+.yellow{
+    display: block;
+    border-radius: 50%;
+    background-color:#FFD54E;
+    padding: 10px 20px;
 }
 .blue{
     display: block;
     border-radius: 50%;
-    background-color:#F06291 ;
+    background-color:#50C2F7;
+    padding: 10px 20px;
+}
+.green{
+    display: block;
+    border-radius: 50%;
+    background-color:#AED581;
+    padding: 10px 20px;
+}
+.form .color div{
+    display: flex;
+    gap: 20px;
+}
+.form textarea{
     border: none;
-    padding: 10px;
-   
+}
+.form textarea:focus{
+    border: none;
 }
